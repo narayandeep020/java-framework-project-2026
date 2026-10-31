@@ -1,13 +1,13 @@
-##Hibernate Framework
+## Hibernate Framework
 Hibernate is a Java framework that simplifies the development of Java application to interact with the database. It is an open source, lightweight, ORM (Object Relational Mapping) tool. Hibernate implements the specifications of JPA (Java Persistence API) for data persistence.
-##Key features of Hibernate
+## Key features of Hibernate
 - ORM Support: Maps Java objects to database tables, reducing boilerplate JDBC code.
 - Database Independence: Works with multiple databases using SQL dialects.
 - HQL (Hibernate Query Language): Provides database-independent, object-oriented querying.
 - Caching Mechanism: Improves performance with first-level and second-level caching.
 - LAZY Loading: It is used to delay the loading of associated entities until they are actually accessed. This helps optimize performance by avoiding unnecessary data retrieval at the time of the main entity loading.
 
-##Elements of Hibernate Architecture 
+## Elements of Hibernate Architecture 
 ![image](https://media.geeksforgeeks.org/wp-content/uploads/20250823123231351658/java_application.webp)
 
 **1. Configuration**
@@ -31,7 +31,7 @@ It is a factory of JDBC connections. It abstracts the application from DriverMan
 **7. Mapping**
 Defines the relationship between Java classes and database tables. Can be done via annotations or XML files.
 
-##Hibernate Workflow
+## Hibernate Workflow
 - Application loads configuration (hibernate.cfg.xml).
 - Hibernate builds a SessionFactory.
 - Application requests a Session from SessionFactory.
